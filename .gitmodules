@@ -1,0 +1,3 @@
+[submodule "matrix/plugin.program.mbtvwizard"]
+	path = matrix/plugin.program.mbtvwizard
+	url = https://github.com/MeirB88/plugin.program.mbtvwizard.git
