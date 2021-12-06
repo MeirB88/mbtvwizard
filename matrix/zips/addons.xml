@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard" version="1.1" provider-name="MeirB88">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
-        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
-        <import addon="script.speedtester" optional="true" version="1.1.2" />
-    </requires>
-    
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    
-    <extension point="xbmc.service" library="startup.py" start="startup" />
-    
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard</summary>
-        <description lang="en">[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard - Home of Kodi Israeli builds!</description>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
-        <news>
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-    </extension>
-</addon><addon id="repository.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard Repo" version="1.1.1" provider-name="MeirB88">
+<addons><addon id="repository.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard Repo" version="1.1.1" provider-name="MeirB88">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/matrix/zips/addons.xml</info>
