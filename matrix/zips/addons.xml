@@ -2,9 +2,9 @@
 <addons><addon id="repository.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard Repo" version="1.1.1" provider-name="MeirB88">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MeirB88/mbtvwizard/matrix/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
