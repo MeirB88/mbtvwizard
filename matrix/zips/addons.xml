@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard" version="Matrix-1.0.1" provider-name="meirb88">
+<addons><addon id="plugin.program.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard" version="1.1" provider-name="meirb88">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -29,7 +29,7 @@ Matrix-1.0.0
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
-</addon><addon id="repository.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard Repo" version="1.1.3" provider-name="MeirB88">
+</addon><addon id="repository.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard Repo" version="1.1.4" provider-name="MeirB88">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/matrix/zips/addons.xml</info>
