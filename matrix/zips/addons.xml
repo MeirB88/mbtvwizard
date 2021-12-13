@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard" version="1.1" provider-name="MeirB88">
+<addons><addon id="plugin.program.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard" version="Matrix-1.0.1" provider-name="meirb88">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -15,12 +15,14 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard</summary>
-        <description lang="en">[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard - Home of Kodi Israeli builds!</description>
+        <summary lang="en">[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard 19</summary>
+        <description lang="en">[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard for kodi 19. offers access to the latest MBTV Builds- Israeli full tv experience builds.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
         <news>
+Matrix-1.0.0
+ - שחרור ראשון
         </news>
         <assets>
             <icon>icon.png</icon>
