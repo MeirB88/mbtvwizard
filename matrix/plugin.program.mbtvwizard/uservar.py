@@ -96,11 +96,11 @@ AUTOUPDATE = 'Yes'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.meirwizard'
+REPOID = 'repository.mbtvwizard'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/MeirB88/meirwizard/master/matrix/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/matrix/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/MeirB88/meirwizard/master/matrix/zips/repository.meirwizard'
+REPOZIPURL = 'https://raw.githubusercontent.com/MeirB88/mbtvwizard/master/matrix/zips/repository.mbtvwizard/'
 #########################################################
 
 #########################################################
