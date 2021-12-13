@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard'
 BUILDERNAME = 'MBTVWizard'
 EXCLUDES = [ADDON_ID, 'repository.mbtvwizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'https://raw.githubusercontent.com/MeirB88/texts/main/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/MeirB88/files/main/Texts/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
