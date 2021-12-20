@@ -13,7 +13,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard'
+ADDONTITLE = '[COLOR orchid]MBTV[/COLOR] Wizard'
 BUILDERNAME = 'MBTVWizard'
 EXCLUDES = [ADDON_ID, 'repository.mbtvwizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
@@ -60,8 +60,8 @@ SPACER = '='
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1 = 'darkorchid'
-COLOR2 = 'royalblue'
+COLOR1 = 'orchid'
+COLOR2 = 'darkorchid'
 # Primary menu items   / {0} is the menu item and is required
 THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]MB[/B][/COLOR][COLOR {color2}]TV[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
 # Build Names          / {0} is the menu item and is required
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard'
+HEADERMESSAGE = '[COLOR orchid]MBTV[/COLOR] Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window

@@ -58,7 +58,7 @@ class MaintenanceMenu:
         totalsize = sizepack + sizethumb + sizecache
 
         directory.add_file(
-            'סה"כ נוקו [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(totalsize)), {'mode': 'fullclean'},
+            'ניקוי מלא [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(totalsize)), {'mode': 'fullclean'},
             icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
         directory.add_file('ניקוי קאש: [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(sizecache)),
                            {'mode': 'clearcache'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
